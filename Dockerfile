@@ -5,7 +5,7 @@ WORKDIR /app
 
 # copy dependncy
 COPY package.json . 
-RUN npm install
+RUN npm install -f
 
 # copy app files 
 
