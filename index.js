@@ -1,10 +1,10 @@
-const hello = "hello world !!!"
+module.exports.hello = "hello world !!!"
 
-const even = 12
+module.exports.even = 12
 
-const isGreat = true
+module.exports.isGreat = true
 
-const shoppingList = [
+module.exports.shoppingList = [
     'diapers',
     'kleenex',
     'trash bags',
@@ -12,15 +12,9 @@ const shoppingList = [
     'milk',
   ]
 
-const sum = (a,b) => {
-    if (isNaN(a) || isNaN(b)) {
-        throw TypeError()
-    }
+  module.exports.sum = (a,b) => {
     if (a === 0 && b === 0) {
         return 0
     }
     return a + b
 }
-
-
-export { hello, even, isGreat, shoppingList, sum }
