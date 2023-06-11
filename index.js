@@ -8,8 +8,7 @@ module.exports.shoppingList = [
     'diapers',
     'kleenex',
     'trash bags',
-    'paper towels',
-    'milk',
+    'milk'
   ]
 
   module.exports.sum = (a,b) => {

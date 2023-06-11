@@ -18,7 +18,7 @@ test('two plus two', () => {
   
     // toBe and toEqual are equivalent for numbers
     expect(even).toBe(12);
-    //expect(even).toEqual(4);
+    expect(even).toEqual(4);
 });
 
 
