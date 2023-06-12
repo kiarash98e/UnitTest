@@ -1,3 +1,5 @@
+// logical code 
+
 module.exports.hello = "hello world !!!"
 
 module.exports.even = 12
