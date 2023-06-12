@@ -1,6 +1,7 @@
 FROM node:16.13.0
 
 # add work dir
+RUN mkdir -p /app
 WORKDIR /app
 
 # copy dependncy
