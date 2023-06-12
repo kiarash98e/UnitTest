@@ -1,0 +1,16 @@
+version: '1'
+secrets:
+  unit-test:
+    enviroment:
+      - NODE_ENV = development
+    build:
+      context: .
+      dockerfile: Dockerfile.dev 
+    volumes:
+      - /app
+    container_name: unit-test
+    expose:
+      - "8000"
+    ports:
+      - "8000:8000"
+    command: npm run dev 
